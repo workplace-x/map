@@ -1,0 +1,175 @@
+Objective:
+Develop an online application that allows salespeople to quickly and efficiently:
+
+Check the overall margin for a specific sales order.
+
+View individual line item margins within that order.
+
+Run specialized margin queries/checks on categories such as Project Management, Design, etc.
+
+Access valuable contextual data to improve quoting accuracy and profitability.
+
+Tech Stack Preferences:
+
+Backend: Node.js (Express.js) or Python (FastAPI)
+
+Frontend: React with Tailwind CSS
+
+Database: PostgreSQL (existing synced ERP data)
+
+ORM/Query library: Prisma (Node.js) or SQLAlchemy (Python)
+
+Database Context:
+
+Tables:
+
+public.ods_hds_orderheader (order summary, total sell, total cost)
+
+public.ods_hds_orderline (line details, sell price, cost price, product category)
+
+Functional Requirements:
+
+Primary Margin Analysis:
+
+Input: Order Number
+
+Output:
+
+Order-level margin %
+
+Line-level details (product, description, sell, cost, margin %)
+
+Category-Based Margin Checks:
+
+Summarize margins for:
+
+Project Management
+
+Design
+
+Additional relevant product categories
+
+Enhanced Sales Insights:
+
+Historical similar quotes comparison
+
+Recommended margin ranges based on historical data
+
+Real-time approval requests for margin exceptions
+
+Upselling and cross-selling suggestions based on past orders
+
+Customer margin history overview
+
+Salesperson performance indicators (margin targets vs. actuals)
+
+Automated discount guardrails and warnings
+
+Competitive pricing insights (manual or internal benchmarking data)
+
+Commission forecasting based on current quote margins
+
+Quote-to-order conversion probability analysis
+
+Technical Considerations:
+
+Optimize queries for performance; queries must execute rapidly (use indexing)
+
+Limit results strictly by user-provided Order Number
+
+Develop as RESTful or GraphQL endpoints
+
+Deliverables (First Phase):
+
+Initial backend API endpoints for margin calculations by Order Number
+
+Basic interactive frontend page for inputting order numbers and displaying margins
+
+SQL queries optimized and structured clearly for ongoing maintenance and scaling
+
+Future Phases:
+
+Enhanced frontend interactivity (sorting/filtering tables, margin highlighting)
+
+Real-time alerts and notifications on margin deviations
+
+Integration with CRM (Salesforce) or BI Tools (Superset/Noloco)
+
+Next Steps:
+
+Propose detailed API endpoint design
+
+Identify necessary database indices and performance enhancements
+
+Suggest a frontend prototype layout
+
+Outline security measures for sensitive margin data access
+
+Implementation Roadmap & Success Criteria
+
+Phase 1: Foundation (Weeks 1-3)
+- Database & API Setup
+  - [ ] PostgreSQL schema design and implementation
+  - [ ] Basic API endpoints for order lookup
+  - [ ] Margin calculation service
+  - [ ] Success Criteria: API response time < 200ms
+
+- Security Implementation
+  - [ ] JWT authentication system
+  - [ ] Role-based access control
+  - [ ] Audit logging for sensitive data
+  - [ ] Success Criteria: All security measures implemented and tested
+
+- Frontend Foundation
+  - [ ] React application setup
+  - [ ] Basic order search interface
+  - [ ] Margin display components
+  - [ ] Success Criteria: Responsive design, < 2s load time
+
+Phase 2: Core Features (Weeks 4-6)
+- Enhanced Margin Analysis
+  - [ ] Line-item margin calculations
+  - [ ] Category-based margin analysis
+  - [ ] Historical margin comparison
+  - [ ] Success Criteria: Accurate margin calculations, real-time updates
+
+- User Experience
+  - [ ] Advanced filtering and sorting
+  - [ ] Data visualization components
+  - [ ] Error handling and user feedback
+  - [ ] Success Criteria: Intuitive UI, < 3 clicks to access key features
+
+Phase 3: Advanced Features (Weeks 7-9)
+- Business Intelligence
+  - [ ] Sales performance metrics
+  - [ ] Margin trend analysis
+  - [ ] Upselling suggestions
+  - [ ] Success Criteria: Actionable insights, 95% accuracy
+
+- Integration & Optimization
+  - [ ] CRM integration
+  - [ ] Performance optimization
+  - [ ] Advanced security features
+  - [ ] Success Criteria: System uptime > 99.9%
+
+Technical Requirements & Standards
+- Code quality metrics
+  - [ ] Test coverage > 80%
+  - [ ] Zero critical security vulnerabilities
+  - [ ] Documentation coverage 100%
+
+- Performance metrics
+  - [ ] API response time < 200ms
+  - [ ] Page load time < 2s
+  - [ ] Database query time < 100ms
+
+- Security standards
+  - [ ] OWASP Top 10 compliance
+  - [ ] Regular security audits
+  - [ ] Data encryption at rest and in transit
+
+Review & Validation Points
+- Weekly code reviews
+- Bi-weekly security assessments
+- Monthly performance audits
+- Quarterly architecture reviews

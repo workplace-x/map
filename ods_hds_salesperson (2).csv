@@ -1,0 +1,372 @@
+"hds_salesperson_id","organization_id","salesperson_id","name","commission_plan","alt_salesperson_id","contact_code","contact_type","sales_group","inactive","objectkey","created_on","updated_on","process_id"
+"-1","TANGRAM","0  ","0","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-0  ","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","1  ","TERMINATED SALESPERSON(S) ","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-1  ","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","103","Dan Boyle","A ","            ","DB  ","D","NW  ",True,"TANGRAM-AR_SLSPERSN-103","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","104","Joe Lozowski","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-104","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","106","JONAS SCHOLL","A ","            ","B236","D","    ",True,"TANGRAM-AR_SLSPERSN-106","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","107","Jack Hooven","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-107","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","108","Mitchel Zelinger","A ","            ","MZE ","D","    ",False,"TANGRAM-AR_SLSPERSN-108","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","110","Kaycee Hansen","A ","            ","O001","D","    ",False,"TANGRAM-AR_SLSPERSN-110","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","111","Dave Teper","A ","            ","DTE ","D","FLR ",False,"TANGRAM-AR_SLSPERSN-111","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","112","Dirk Manning","A ","            ","A572","D","    ",True,"TANGRAM-AR_SLSPERSN-112","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","113","Anthony Knox","A ","            ","A579","D","    ",False,"TANGRAM-AR_SLSPERSN-113","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","114","Kellie Reed","A ","            ","A747","D","    ",False,"TANGRAM-AR_SLSPERSN-114","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","116","Tan Warren","A ","            ","B569","D","    ",True,"TANGRAM-AR_SLSPERSN-116","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","117","Gabriel Ngaosi","35","            ","C146","D","    ",False,"TANGRAM-AR_SLSPERSN-117","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","118","Mark Chaput","A ","            ","Z001","D","    ",False,"TANGRAM-AR_SLSPERSN-118","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","119","Katlyn Byrnes","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-119","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","120","Ismael Flores","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-120","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","121","Kelly Spear","N6","            ","P002","D","    ",False,"TANGRAM-AR_SLSPERSN-121","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","122","Rob Barganier","T2","            ","V002","D","    ",False,"TANGRAM-AR_SLSPERSN-122","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","150","CINDY OBRIEN","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-150","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","151","Efrain Gastelum","N3","            ","C248","D","    ",True,"TANGRAM-AR_SLSPERSN-151","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","190","Thomas McNally","T2","            ","3001","D","    ",False,"TANGRAM-AR_SLSPERSN-190","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","191","Jonathan Hart","T2","            ","Z000","D","    ",False,"TANGRAM-AR_SLSPERSN-191","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","192","Peyton Romo","N6","            ","Y000","D","    ",False,"TANGRAM-AR_SLSPERSN-192","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","193","Monique Chairez","N5","            ","W000","D","    ",False,"TANGRAM-AR_SLSPERSN-193","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","194","Erick Repreza - F","10","            ","ER  ","D","    ",False,"TANGRAM-AR_SLSPERSN-194","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","195","Michelle Gibbs","N6","            ","MG  ","D","    ",False,"TANGRAM-AR_SLSPERSN-195","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","196","Kyle Mora","10","            ","T000","D","    ",False,"TANGRAM-AR_SLSPERSN-196","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","197","Karola Morales","A ","            ","G000","D","    ",True,"TANGRAM-AR_SLSPERSN-197","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","198","Chris Fong","K1","            ","C214","D","    ",False,"TANGRAM-AR_SLSPERSN-198","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","199","Donovan Hyde","A ","            ","C143","D","    ",False,"TANGRAM-AR_SLSPERSN-199","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","200","JERRY GRAY                    ","A ","            ","JG  ","D","    ",True,"TANGRAM-AR_SLSPERSN-200","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","201","Arielle Ship","N6","            ","V001","D","    ",False,"TANGRAM-AR_SLSPERSN-201","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","202","Charlotte Wiederholt","A ","            ","CW  ","D","    ",False,"TANGRAM-AR_SLSPERSN-202","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","203","ELLEN DORROS","N6","            ","A492","D","    ",True,"TANGRAM-AR_SLSPERSN-203","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","204","Ron Roussell - do not use","A ","            ","RR  ","D","    ",True,"TANGRAM-AR_SLSPERSN-204","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","205","Todd Bynon","A ","            ","C056","D","    ",False,"TANGRAM-AR_SLSPERSN-205","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","206","Jeremy Knapp","A ","            ","JKN ","D","    ",False,"TANGRAM-AR_SLSPERSN-206","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","207","BRAD CLAEYS","A ","            ","BCL ","D","    ",True,"TANGRAM-AR_SLSPERSN-207","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","208","Jay Kim","K1","            ","C122","D","    ",False,"TANGRAM-AR_SLSPERSN-208","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","209","Anjanette Blanciak","K1","            ","C125","D","    ",False,"TANGRAM-AR_SLSPERSN-209","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","210","Rhonda Law","N6","            ","RV  ","D","    ",False,"TANGRAM-AR_SLSPERSN-210","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","211","Erik Garza","A ","            ","C145","D","    ",False,"TANGRAM-AR_SLSPERSN-211","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","212","Breana Parker","A ","            ","W001","D","    ",False,"TANGRAM-AR_SLSPERSN-212","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","213","*do not use* was Chris Fong","K1","            ","C214","D","    ",False,"TANGRAM-AR_SLSPERSN-213","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","214","Theresa Hares","A ","            ","T001","D","    ",False,"TANGRAM-AR_SLSPERSN-214","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","215","Ali McGee","N6","            ","U001","D","    ",False,"TANGRAM-AR_SLSPERSN-215","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","216","David Puzio","A ","            ","C152","D","    ",False,"TANGRAM-AR_SLSPERSN-216","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","217","Fernando Guadiana","A ","            ","7001","D","    ",False,"TANGRAM-AR_SLSPERSN-217","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","229","Networks Marcella Cendejas","A ","            ","MC  ","D","    ",False,"TANGRAM-AR_SLSPERSN-229","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","232","Networks Nanette Holton","A ","            ","ND  ","D","    ",False,"TANGRAM-AR_SLSPERSN-232","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","275","Lissen Gregory","N6","            ","LG  ","D","KMG ",False,"TANGRAM-AR_SLSPERSN-275","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","290","STEVE BARNES                  ","N2","            ","BAR ","D","NBD ",True,"TANGRAM-AR_SLSPERSN-290","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","293","Liz Charney","N6","            ","C030","D","    ",False,"TANGRAM-AR_SLSPERSN-293","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","294","Justin Vasu","N6","            ","C126","D","    ",False,"TANGRAM-AR_SLSPERSN-294","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","295","Michael Mims","A ","            ","C124","D","    ",True,"TANGRAM-AR_SLSPERSN-295","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","296","Curtis Lee","N2","            ","B826","D","    ",False,"TANGRAM-AR_SLSPERSN-296","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","297","Lily Gomez","A ","            ","C085","D","    ",False,"TANGRAM-AR_SLSPERSN-297","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","298","Catherine Ingalls","N3","            ","B908","D","    ",False,"TANGRAM-AR_SLSPERSN-298","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","299","Alison Hickman","A ","            ","C079","D","    ",False,"TANGRAM-AR_SLSPERSN-299","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","300","Matt Clark","A ","            ","A457","D","    ",True,"TANGRAM-AR_SLSPERSN-300","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","301","Jacob Hughey","N6","            ","U003","D","    ",False,"TANGRAM-AR_SLSPERSN-301","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","302","Josiah Castillo","N6","            ","T003","D","    ",False,"TANGRAM-AR_SLSPERSN-302","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","303","Ella Dederick","N6","            ","S003","D","    ",False,"TANGRAM-AR_SLSPERSN-303","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","31 ","STEVE CUNNINGHAM - do not use","N6","            ","SC  ","D","    ",True,"TANGRAM-AR_SLSPERSN-31 ","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","314","Sarabeth Schibler - LM","N6","            ","B989","D","    ",False,"TANGRAM-AR_SLSPERSN-314","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","34 ","Eileen Knox","N6","            ","EC  ","D","KMG ",False,"TANGRAM-AR_SLSPERSN-34 ","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","376","Taylor Hinke","N6","            ","C206","D","    ",False,"TANGRAM-AR_SLSPERSN-376","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","377","Diego Bravo","N6","            ","C203","D","    ",False,"TANGRAM-AR_SLSPERSN-377","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","378","Victor Wilkens","A ","            ","C068","D","    ",False,"TANGRAM-AR_SLSPERSN-378","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","379","Nicole Zywiec","N4","            ","C069","D","    ",False,"TANGRAM-AR_SLSPERSN-379","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","380","Cheryl Krasho","T2","            ","C119","D","    ",True,"TANGRAM-AR_SLSPERSN-380","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","381","Katie Scott","N6","            ","C112","D","    ",False,"TANGRAM-AR_SLSPERSN-381","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","382","Mackenzie Barr","N6","            ","C106","D","    ",False,"TANGRAM-AR_SLSPERSN-382","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","383","Tim Holliday","A ","            ","C104","D","    ",False,"TANGRAM-AR_SLSPERSN-383","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","384","JR Purnell","TC","            ","C102","D","    ",False,"TANGRAM-AR_SLSPERSN-384","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","385","Angelika Carry","TC","            ","C101","D","    ",False,"TANGRAM-AR_SLSPERSN-385","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","386","Idin Hashemi","A ","            ","C093","D","    ",True,"TANGRAM-AR_SLSPERSN-386","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","387","Madison Hogue","K1","            ","C091","D","    ",False,"TANGRAM-AR_SLSPERSN-387","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","388","Isabel Miller","N2","            ","B325","D","    ",False,"TANGRAM-AR_SLSPERSN-388","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","389","Alan Zurita","A ","            ","C088","D","    ",False,"TANGRAM-AR_SLSPERSN-389","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","390","Jim Simmons","A ","            ","JS  ","D","    ",False,"TANGRAM-AR_SLSPERSN-390","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","391","Tony Gamboa","A ","            ","C078","D","    ",False,"TANGRAM-AR_SLSPERSN-391","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","392","Mark Coxon","A ","            ","C067","D","    ",True,"TANGRAM-AR_SLSPERSN-392","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","393","Gabriella Marzola","N6","            ","C062","D","    ",False,"TANGRAM-AR_SLSPERSN-393","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","394","Jax DiBenedetto","N2","            ","B842","D","    ",False,"TANGRAM-AR_SLSPERSN-394","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","395","Angelina Facundo","A ","            ","B977","D","    ",False,"TANGRAM-AR_SLSPERSN-395","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","396","George Ponce","A ","            ","C043","D","    ",False,"TANGRAM-AR_SLSPERSN-396","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","397","Angela Gutierrez","N6","            ","AGU ","D","    ",False,"TANGRAM-AR_SLSPERSN-397","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","398","Ryan Kampf","10","            ","C045","D","    ",False,"TANGRAM-AR_SLSPERSN-398","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","399","Alyssa Belluzzi","A ","            ","C042","D","    ",False,"TANGRAM-AR_SLSPERSN-399","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","400","Cassie Stepanek","N4","            ","B971","D","    ",False,"TANGRAM-AR_SLSPERSN-400","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","401","Carlos Galeas","A ","            ","C015","D","    ",False,"TANGRAM-AR_SLSPERSN-401","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","402","Jason Jerez","J2","            ","C019","D","    ",False,"TANGRAM-AR_SLSPERSN-402","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","403","Gregg Johnson","A ","            ","C016","D","    ",False,"TANGRAM-AR_SLSPERSN-403","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","404","Ron Ramirez- do not use","A ","            ","RRA ","D","    ",True,"TANGRAM-AR_SLSPERSN-404","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","405","STEVE TROAST - do not use","FL","            ","STR ","D","FLR ",True,"TANGRAM-AR_SLSPERSN-405","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","406","Sabrina Neas","N6","            ","C018","D","    ",False,"TANGRAM-AR_SLSPERSN-406","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","407","Marcella Cendejas","A ","            ","MC  ","D","    ",True,"TANGRAM-AR_SLSPERSN-407","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","408","Erika Hargis","N6","            ","B999","D","    ",False,"TANGRAM-AR_SLSPERSN-408","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","409","6","A ","            ","TBO ","D","    ",True,"TANGRAM-AR_SLSPERSN-409","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","410","Breanne Swenson","B6","            ","B998","D","    ",False,"TANGRAM-AR_SLSPERSN-410","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","411","Paul Shaia - do not use","N2","            ","A109","D","FLR ",True,"TANGRAM-AR_SLSPERSN-411","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","412","Sandra Todd - do not use","FL","            ","A421","D","    ",True,"TANGRAM-AR_SLSPERSN-412","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","413","Cabello Costa","FL","            ","A575","D","    ",False,"TANGRAM-AR_SLSPERSN-413","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","414","Sarabeth Schibler","A ","            ","B989","D","    ",False,"TANGRAM-AR_SLSPERSN-414","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","415","Hope Ramirez","A ","            ","C012","D","    ",False,"TANGRAM-AR_SLSPERSN-415","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","487","Julia Ehman","N6","            ","B836","D","    ",False,"TANGRAM-AR_SLSPERSN-487","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","488","Mario Divincenzo","A ","            ","C140","D","    ",False,"TANGRAM-AR_SLSPERSN-488","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","489","Sherine Teymour","N4","            ","C009","D","    ",False,"TANGRAM-AR_SLSPERSN-489","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","490","Melissa Barber","A ","            ","C001","D","    ",False,"TANGRAM-AR_SLSPERSN-490","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","492","Jon Sheppard","A ","            ","B986","D","    ",False,"TANGRAM-AR_SLSPERSN-492","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","493","Daryl Nishimiya","TT","            ","B990","D","    ",True,"TANGRAM-AR_SLSPERSN-493","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","494","Adrian Moreira","N6","            ","B951","D","    ",False,"TANGRAM-AR_SLSPERSN-494","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","495","Alexandra Mitrovich","N2","            ","A538","D","    ",False,"TANGRAM-AR_SLSPERSN-495","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","496","Matt Raines","A ","            ","B985","D","    ",False,"TANGRAM-AR_SLSPERSN-496","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","497","Alan Dupras","A ","            ","B984","D","    ",False,"TANGRAM-AR_SLSPERSN-497","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","498","Liz Merrit","N6","            ","B970","D","    ",False,"TANGRAM-AR_SLSPERSN-498","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","499","Karlee Budge","N2","            ","B963","D","    ",False,"TANGRAM-AR_SLSPERSN-499","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","500","UCI General","A ","            ",NULL,NULL,"HED ",False,"TANGRAM-AR_SLSPERSN-500","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","501","Stacey Cleboski","A ","            ","B931","D","    ",False,"TANGRAM-AR_SLSPERSN-501","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","502","Susie Rinderknecht","N5","            ","B855","D","    ",False,"TANGRAM-AR_SLSPERSN-502","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","503","Dahlia Geldin- do not use","N2","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-503","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","504","Jordan Hardman","A ","            ","B939","D","    ",False,"TANGRAM-AR_SLSPERSN-504","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","505","MIKE HALL","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-505","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","506","Bianca Lopez","N6","            ","B954","D","    ",False,"TANGRAM-AR_SLSPERSN-506","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","507","Debra Powers","N6","            ","B955","D","    ",False,"TANGRAM-AR_SLSPERSN-507","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","508","Natalie Espinoza","N6","            ","B956","D","    ",False,"TANGRAM-AR_SLSPERSN-508","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","509","Matt Gutkowski","A ","            ","B959","D","    ",False,"TANGRAM-AR_SLSPERSN-509","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","510","Ricky Wolter","N6","            ","B960","D","    ",False,"TANGRAM-AR_SLSPERSN-510","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","511","Scase Exchange for UCLA","A ","            ",NULL,NULL,"UCLA",False,"TANGRAM-AR_SLSPERSN-511","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","512","Dennie Franzen","N2","            ","DE  ","D","    ",False,"TANGRAM-AR_SLSPERSN-512","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","513","Joanne Fischer","N6","            ","JF  ","D","    ",False,"TANGRAM-AR_SLSPERSN-513","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","515","Ann De Bruin","N6","            ","ADB ","D","UCLA",False,"TANGRAM-AR_SLSPERSN-515","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","520","ALBERT RAMOS                  ","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-520","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","521","BARBARA CHILDS                ","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-521","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","522","ROBIN EFFLER","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-522","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","523","Tom Walsh","N6","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-523","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","525","Al Castanon","A ","            ","ACA ","D","MOVE",False,"TANGRAM-AR_SLSPERSN-525","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","527","CAROLINE SCHMIDT","A ","            ","CS  ","D","HED ",True,"TANGRAM-AR_SLSPERSN-527","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","537","Mary Dalvia - do not use","A ","            ","MHO ","D","    ",True,"TANGRAM-AR_SLSPERSN-537","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","538","Leslie McDonald","10","            ","LOM ","D","KMG ",False,"TANGRAM-AR_SLSPERSN-538","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","539","Louie Mendoza","N6","            ","LME ","D","HC  ",False,"TANGRAM-AR_SLSPERSN-539","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","540","MITRA AHMADIAN - do not use","N5","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-540","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","542","Jessa Finnegan do not use/move","A ","            ","JBU ","D","    ",True,"TANGRAM-AR_SLSPERSN-542","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","543","Denise Ferrier - do not use","N6","            ","DFE ","D","SP  ",True,"TANGRAM-AR_SLSPERSN-543","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","544","CURTIS WONG                   ","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-544","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","545","Anthony Pepe - do not use","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-545","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","546","Lupe Morfin","10","            ","LUP ","D","USC ",False,"TANGRAM-AR_SLSPERSN-546","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","547","ALLAN KENNEDY","A ","            ","AKE ","D","UCLA",True,"TANGRAM-AR_SLSPERSN-547","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","548","Larry Elstead - do not use","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-548","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","551","Kellie Trimmer - do not use","A ","            ","KTR ","D","    ",True,"TANGRAM-AR_SLSPERSN-551","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","553","Jeanne Wright - do not use","A ","            ","JWR ","D","    ",True,"TANGRAM-AR_SLSPERSN-553","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","557","Orange County Sales Manager","A ","            ","CPT ","D","    ",True,"TANGRAM-AR_SLSPERSN-557","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","561","Nick Meter","A ","            ","NME ","D","NBD ",False,"TANGRAM-AR_SLSPERSN-561","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","562","Casey Eidsvold - do not use","N2","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-562","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","563","April Anderson - do not use","A ","            ","AAN ","D","    ",True,"TANGRAM-AR_SLSPERSN-563","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","565","Sheila O'Flynn","A ","            ","SO  ","D","    ",False,"TANGRAM-AR_SLSPERSN-565","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","572","Aislinn Sexton - do not use","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-572","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","573","JESSA FINNEGAN","FL","            ","JBU ","D","FLR ",False,"TANGRAM-AR_SLSPERSN-573","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","574","Erica Palafox - do not use","A ","            ","A791","D","MOVE",True,"TANGRAM-AR_SLSPERSN-574","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","576","Hillary McCrumb - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-576","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","577","Laura McFarland - do not use","A ","            ","LMC ","D","    ",True,"TANGRAM-AR_SLSPERSN-577","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","578","Erin Villarreal - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-578","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","579","Kimberly Barnow","10","            ","B616","D","    ",False,"TANGRAM-AR_SLSPERSN-579","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","580","Mark Wild","N2","            ","MW  ","D","    ",False,"TANGRAM-AR_SLSPERSN-580","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","581","Pete Galvan","A ","            ","PGA ","D","MOVE",False,"TANGRAM-AR_SLSPERSN-581","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","582","Holly Kessler - do not use","N6","            ","B744","D","MUN ",True,"TANGRAM-AR_SLSPERSN-582","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","583","Sheryl Charobee","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-583","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","584","Bridgette Hunt - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-584","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","585","Sandy Partridge - do not use","N2","            ","B893","D","    ",True,"TANGRAM-AR_SLSPERSN-585","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","586","MEGAN FLOYD","A ","            ","C073","D","NBD ",True,"TANGRAM-AR_SLSPERSN-586","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","587","BARNEY LANDGRAF","N6","            ","A068","D","    ",True,"TANGRAM-AR_SLSPERSN-587","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","589","Al Orujula - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-589","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","590","KATHY STRAMER","N6","            ","KST ","D","    ",True,"TANGRAM-AR_SLSPERSN-590","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","591","John Paganas - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-591","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","592","Roya Madjlessi","A ","            ","B950","D","    ",True,"TANGRAM-AR_SLSPERSN-592","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","593","Monique Chairez (2)","U2","            ","W000","D","    ",False,"TANGRAM-AR_SLSPERSN-593","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","599","Andrew Smith","FL","            ","B806","D","    ",False,"TANGRAM-AR_SLSPERSN-599","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","600","David Morgan","A ","            ","DM  ","D","    ",False,"TANGRAM-AR_SLSPERSN-600","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","601","Bob Tanabe - do not use","N5","            ","BT  ","D","    ",True,"TANGRAM-AR_SLSPERSN-601","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","603","Kimberly Hulsey do not use","N3","            ","A379","D","    ",True,"TANGRAM-AR_SLSPERSN-603","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","604","DIANE METZNER","A ","            ","B726","D","    ",True,"TANGRAM-AR_SLSPERSN-604","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","605","Debra Haas - do not use","N2","            ","A389","D","    ",True,"TANGRAM-AR_SLSPERSN-605","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","607","Christina Wyrick - do not use","N2","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-607","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","608","Gina Weiser - do not use","N6","            ","A401","D","    ",True,"TANGRAM-AR_SLSPERSN-608","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","609","Lindsey Sage","A ","            ","LPE ","D","    ",False,"TANGRAM-AR_SLSPERSN-609","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","610","Paula Christiansen - do not us","A ","            ","A414","D","    ",True,"TANGRAM-AR_SLSPERSN-610","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","612","LORI BOURASSA","N6","            ","A434","D","    ",True,"TANGRAM-AR_SLSPERSN-612","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","613","MERYL RASMUSSEN","N2","            ","A432","D","    ",True,"TANGRAM-AR_SLSPERSN-613","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","614","JAMES NAVARRO","JN","            ","A440","D","    ",True,"TANGRAM-AR_SLSPERSN-614","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","615","Randy Thrasher","N6","            ","A447","D","    ",False,"TANGRAM-AR_SLSPERSN-615","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","616","BOBBY TRUJILLO","N2","            ","A605","D","    ",True,"TANGRAM-AR_SLSPERSN-616","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","617","BRUCE MCCLYMONDS - do not use","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-617","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","618","Cristie Smith","U2","            ","A490","D","    ",False,"TANGRAM-AR_SLSPERSN-618","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","619","STACY TRAINA  - do not use","N6","            ","A499","D","    ",True,"TANGRAM-AR_SLSPERSN-619","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","620","Wayne Igawa - do not use","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-620","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","621","BRIAN CASTELLANOS","N6","            ","A504","D","    ",True,"TANGRAM-AR_SLSPERSN-621","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","622","DOUG DAVIDIAN - do not use","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-622","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","623","CANDICE YOUNG - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-623","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","624","RUFUS COVACEVICH","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-624","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","625","AMANDA MARTINEZ - do not use","N6","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-625","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","626","MARK MOORE - do not use","N5","            ","A536","D","    ",True,"TANGRAM-AR_SLSPERSN-626","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","627","MATT CUTKA - do not use","N6","            ","A540","D","    ",True,"TANGRAM-AR_SLSPERSN-627","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","629","CRYSTAL PASELK","A ","            ","A544","D","    ",False,"TANGRAM-AR_SLSPERSN-629","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","630","ETHAN JOHNSON","N6","            ","A546","D","    ",True,"TANGRAM-AR_SLSPERSN-630","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","631","SHEILA SHENASI","A ","            ","A562","D","    ",True,"TANGRAM-AR_SLSPERSN-631","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","632","KRISTIN MEHL","N6","            ","A565","D","    ",True,"TANGRAM-AR_SLSPERSN-632","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","633","AUGIE ALONSO","N2","            ","A728","D","    ",True,"TANGRAM-AR_SLSPERSN-633","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","634","LYNDA HOWARD","N6","            ","A582","D","    ",True,"TANGRAM-AR_SLSPERSN-634","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","635","MIRIAM SAADATI","A ","            ","B117","D","    ",True,"TANGRAM-AR_SLSPERSN-635","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","636","Mary Moen","17","            ","A767","D","    ",False,"TANGRAM-AR_SLSPERSN-636","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","637","JENNIFER MCCOY","A ","            ","A864","D","    ",True,"TANGRAM-AR_SLSPERSN-637","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","638","Elizabeth Hyder","N6","            ","A906","D","    ",False,"TANGRAM-AR_SLSPERSN-638","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","639","BROOKE BEAMAN","N5","            ","A902","D","    ",True,"TANGRAM-AR_SLSPERSN-639","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","640","ALICIA ALVA","N6","            ","A965","D","    ",True,"TANGRAM-AR_SLSPERSN-640","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","641","Arlene Trevathan","A ","            ","B093","D","    ",False,"TANGRAM-AR_SLSPERSN-641","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","642","MARIO PEREZ","N6","            ","MPE ","D","    ",True,"TANGRAM-AR_SLSPERSN-642","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","643","MALLORY MCDONOUGH","N6","            ","B172","D","    ",True,"TANGRAM-AR_SLSPERSN-643","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","644","BETH ATKINS","N3","            ","BAT ","D","    ",True,"TANGRAM-AR_SLSPERSN-644","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","645","ANTHONY MINITE","A ","            ","B318","D","    ",True,"TANGRAM-AR_SLSPERSN-645","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","646","FRANK GOMEZ","A ","            ","B314","D","    ",True,"TANGRAM-AR_SLSPERSN-646","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","647","Stephanie Dickson","N2","            ","B471","D","    ",False,"TANGRAM-AR_SLSPERSN-647","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","648","Stacy Cole","N2","            ","A098","D","    ",False,"TANGRAM-AR_SLSPERSN-648","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","649","TERRY BURK","FL","            ","B579","D","    ",True,"TANGRAM-AR_SLSPERSN-649","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","650","Jen Karibian","N6","            ","B096","D","    ",False,"TANGRAM-AR_SLSPERSN-650","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","651","Andra Kaleps","10","            ","B668","D","    ",False,"TANGRAM-AR_SLSPERSN-651","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","652","ALICE YOON","ST","            ","B674","D","    ",True,"TANGRAM-AR_SLSPERSN-652","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","653","DUNCAN FOSTER","A ","            ","B700","D","    ",True,"TANGRAM-AR_SLSPERSN-653","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","654","DANA SCHAEFFER","N2","            ","B754","D","    ",True,"TANGRAM-AR_SLSPERSN-654","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","655","JOEL INTERIANO","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-655","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","656","CHARLENE WARREN","A ","            ","B789","D","    ",True,"TANGRAM-AR_SLSPERSN-656","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","658","Tasha ONeal","N6","            ","B792","D","    ",False,"TANGRAM-AR_SLSPERSN-658","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","659","Alyssa Armesto","A ","            ","B782","D","    ",False,"TANGRAM-AR_SLSPERSN-659","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","660","Shawnee Tylor","A ","            ","B449","D","    ",False,"TANGRAM-AR_SLSPERSN-660","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","661","ANDREW EDQUIST","A ","            ","B802","D","    ",True,"TANGRAM-AR_SLSPERSN-661","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","662","Emily Garay","A ","            ","B795","D","    ",False,"TANGRAM-AR_SLSPERSN-662","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","663","Andrew Smith - Furniture Only","N2","            ","B806","D","    ",False,"TANGRAM-AR_SLSPERSN-663","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","664","Kristina Owens","A ","            ","A940","D","    ",False,"TANGRAM-AR_SLSPERSN-664","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","669","Amber Jones CA","A ","            ","B796","D","    ",False,"TANGRAM-AR_SLSPERSN-669","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","670","NICK MIANO","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-670","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","671","Roy Andries","A ","            ","C021","D","    ",False,"TANGRAM-AR_SLSPERSN-671","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","672","GRETCHEN RICHARDSON","A ","            ","B819","D","    ",True,"TANGRAM-AR_SLSPERSN-672","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","673","KIM CAHNERS","A ","            ","B821","D","    ",True,"TANGRAM-AR_SLSPERSN-673","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","674","CHRIS D'ASCENZO","N6","            ","B823","D","    ",True,"TANGRAM-AR_SLSPERSN-674","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","675","Derek Todero","FL","            ","B834","D","    ",False,"TANGRAM-AR_SLSPERSN-675","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","676","Jan Windle","A ","            ","JW  ","D","    ",False,"TANGRAM-AR_SLSPERSN-676","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","677","ELIOT SMITH","N6","            ","B844","D","    ",True,"TANGRAM-AR_SLSPERSN-677","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","678","Joel Noble","FL","            ","B845","D","    ",True,"TANGRAM-AR_SLSPERSN-678","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","679","Jax DiBenedetto (Studio)","S2","            ","B842","D","    ",False,"TANGRAM-AR_SLSPERSN-679","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","680","Erick Repreza","N6","            ","ER  ","D","    ",False,"TANGRAM-AR_SLSPERSN-680","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","681","Gordon Jackson","N6","            ","B855","D","    ",False,"TANGRAM-AR_SLSPERSN-681","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","682","Eric Lockwood","A ","            ","B839","D","    ",False,"TANGRAM-AR_SLSPERSN-682","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","683","Christopher Mojo","N6","            ","B872","D","    ",False,"TANGRAM-AR_SLSPERSN-683","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","684","Michael Lukasik","N6","            ","B877","D","    ",False,"TANGRAM-AR_SLSPERSN-684","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","685","SAMANTHA POLLY","N6","            ","B894","D","    ",True,"TANGRAM-AR_SLSPERSN-685","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","686","Hunter Brown","N2","            ","B892","D","    ",False,"TANGRAM-AR_SLSPERSN-686","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","687","Adam Simmons","A ","            ","B895","D","    ",True,"TANGRAM-AR_SLSPERSN-687","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","688","Kasey Christensen","N2","            ","B897","D","    ",False,"TANGRAM-AR_SLSPERSN-688","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","689","Kathy Shiu","A ","            ","KSH ","D","    ",False,"TANGRAM-AR_SLSPERSN-689","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","690","Kimberly Wiggs","N6","            ","B898","D","    ",False,"TANGRAM-AR_SLSPERSN-690","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","691","Nathan Mowrey","A ","            ","B900","D","    ",False,"TANGRAM-AR_SLSPERSN-691","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","692","Guia Uy","N4","            ","B901","D","    ",False,"TANGRAM-AR_SLSPERSN-692","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","693","CASEY JONES","A ","            ","B902","D","    ",True,"TANGRAM-AR_SLSPERSN-693","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","694","Jeremy Manuel","A ","            ","B896","D","    ",False,"TANGRAM-AR_SLSPERSN-694","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","695","CARLOS VELASCO","A ","            ","B910","D","    ",True,"TANGRAM-AR_SLSPERSN-695","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","696","Michelle Shmizu","N6","            ","B920","D","    ",False,"TANGRAM-AR_SLSPERSN-696","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","697","David Kewon","A ","            ","B922","D","    ",False,"TANGRAM-AR_SLSPERSN-697","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","698","Chrissy Rynveld","N6","            ","B923","D","    ",False,"TANGRAM-AR_SLSPERSN-698","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","699","Tristin Kranenburg","N6","            ","B925","D","    ",False,"TANGRAM-AR_SLSPERSN-699","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","700","ONSITE/HOUSE                  ","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-700","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","701","Alex Kalejs","T2","            ","6000","D","    ",False,"TANGRAM-AR_SLSPERSN-701","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","715","ALBERT RAMOS - BOFA ONLY      ","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-715","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","720","ANNIE FITZPATRICK             ","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-720","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","721","ASTOR OWEN                    ","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-721","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","722","GERHARD STADEL - DO NOT USE","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-722","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","724","JIM ABBITT","A ","            ","JAB ","D","    ",True,"TANGRAM-AR_SLSPERSN-724","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","725","Gary Vilinsky","N6","            ","GV  ","D","HC  ",False,"TANGRAM-AR_SLSPERSN-725","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","750","Juan Macias - do not use","35","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-750","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","751","Felipe Marquez","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-751","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","799","Tristin Kranenburg - LA","10","            ","B925","D","    ",False,"TANGRAM-AR_SLSPERSN-799","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","800","Rentals","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-800","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","820","Amanda Pierce","N6","            ","A558","D","    ",False,"TANGRAM-AR_SLSPERSN-820","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","821","Karen Gaylord","N6","            ","KG  ","D","    ",False,"TANGRAM-AR_SLSPERSN-821","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","825","JENNIFER COENE","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-825","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","830","Ashley Redieck","N6","            ","A372","D","    ",False,"TANGRAM-AR_SLSPERSN-830","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","835","Lovella Tulawan","N6","            ","B414","D","    ",False,"TANGRAM-AR_SLSPERSN-835","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","840","Debbie McGowan","A ","            ","A936","D","    ",False,"TANGRAM-AR_SLSPERSN-840","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","845","Erica Alexander","N6","            ","B865","D","    ",False,"TANGRAM-AR_SLSPERSN-845","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","850","Carey Mundo","N6","            ","C207","D","    ",False,"TANGRAM-AR_SLSPERSN-850","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","855","Courtney Bruce","N6","            ","C192","D","    ",False,"TANGRAM-AR_SLSPERSN-855","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","856","Courtney Bruce - CH","12","            ","C192","D","    ",False,"TANGRAM-AR_SLSPERSN-856","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","860","Jalen Gibson","N6","            ","C174","D","    ",False,"TANGRAM-AR_SLSPERSN-860","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","865","Yvette Alvarado","N6","            ","C097","D","    ",False,"TANGRAM-AR_SLSPERSN-865","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","870","Samantha East","N6","            ","B949","D","    ",False,"TANGRAM-AR_SLSPERSN-870","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","899","Alyssa Beluzzi - DAL","A ","            ","C042","D","    ",False,"TANGRAM-AR_SLSPERSN-899","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","900","House/Newport Beach","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-900","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","901","Design","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-901","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","920","House/Bakersfield","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-920","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","930","House/Fresno","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-930","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","935","House - Falkbuilt","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-935","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","940","House/Flooring","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-940","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","949","House/West Elm","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-949","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","950","HOUSE/WOODLAND HILLS","A ","            ",NULL,NULL,"    ",True,"TANGRAM-AR_SLSPERSN-950","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","960","House/Riverside","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-960","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","965","House/Technology","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-965","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","990","Margaret Windle Only","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-990","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","995","House / Studio Other","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-995","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","998","House / Dallas","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-998","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","999","House/Santa Fe Springs","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-999","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","ABE","Allison Berry","A ","            ","L000","D","    ",False,"TANGRAM-AR_SLSPERSN-ABE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","AJO","Amber Jones DA","A ","            ","B796","D","    ",False,"TANGRAM-AR_SLSPERSN-AJO","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","AMA","Ashlee Malone","N6","            ","D000","D","    ",False,"TANGRAM-AR_SLSPERSN-AMA","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","ANE","Anh Neustadter","A ","            ","Y003","D","    ",False,"TANGRAM-AR_SLSPERSN-ANE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","AR2","Angela Ramon (KT)","N0","            ","C205","D","    ",False,"TANGRAM-AR_SLSPERSN-AR2","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","ARA","Angela Ramon","N2","            ","C205","D","    ",False,"TANGRAM-AR_SLSPERSN-ARA","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","AS2","Amanda Seitzler - LG","N8","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-AS2","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","ASE","Amanda Seitzler","N6","            ","H000","D","    ",False,"TANGRAM-AR_SLSPERSN-ASE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","BFO","Brent Farver","N2","            ","C158","D","    ",False,"TANGRAM-AR_SLSPERSN-BFO","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","BOA","BOA - KKI","N6","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-BOA","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","BWI","Britni Wilkens","N6","            ","W002","D","    ",False,"TANGRAM-AR_SLSPERSN-BWI","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","BYE","0","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-BYE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CCC","Children's Sales Team","26","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-CCC","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CCH","Cameron Christensen","A ","            ","N003","D","    ",False,"TANGRAM-AR_SLSPERSN-CCH","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CET","CET to HEDBERG","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-CET","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CEX","CAPITAL EXPENDITURE","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-CEX","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CHO","Ciara Holland","N2","            ","T002","D","    ",False,"TANGRAM-AR_SLSPERSN-CHO","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CLE","DONNA CLERVI                  ","A ","            ","DC  ","D","HC  ",True,"TANGRAM-AR_SLSPERSN-CLE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","COB","CINDY OBRIEN (training only)","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-COB","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CSN","Courtney Samuelson - CH","34","            ","C155","D","    ",False,"TANGRAM-AR_SLSPERSN-CSN","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","CSO","Courtney Samuelson","N2","            ","C155","D","    ",False,"TANGRAM-AR_SLSPERSN-CSO","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","DIO","Default for Inbound Orders","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-DIO","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","FAR","Dave Farrell - do not use","N5","            ","DF  ","D","    ",True,"TANGRAM-AR_SLSPERSN-FAR","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","GTH","Gopi Thakker","A ","            ","7003","D","    ",False,"TANGRAM-AR_SLSPERSN-GTH","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","JLE","Jon Leach","A ","            ","C200","D","    ",False,"TANGRAM-AR_SLSPERSN-JLE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","JPL","JPL - NAD","N6","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-JPL","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","JVR","Joe Rodriquez","N6","            ","C197","D","    ",False,"TANGRAM-AR_SLSPERSN-JVR","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","KHE","Katlyn Henshel","N6","            ","M003","D","    ",False,"TANGRAM-AR_SLSPERSN-KHE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","KND","Kelsey Davis","N2","            ","I000","D","    ",False,"TANGRAM-AR_SLSPERSN-KND","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","KOW","Kristina Owen (training only)","A ","            ","B832","D","    ",False,"TANGRAM-AR_SLSPERSN-KOW","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","KTU","Kade Turnage","A ","            ","4002","D","    ",False,"TANGRAM-AR_SLSPERSN-KTU","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","LFH","Lisa Floyd","N6","            ","C157","D","    ",False,"TANGRAM-AR_SLSPERSN-LFH","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","LG2","Lauren Ghizzoni - AS","20","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-LG2","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","LGH","Lauren Ghizzoni","N2","            ","C210","D","    ",False,"TANGRAM-AR_SLSPERSN-LGH","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","LH1","Donnie McDuff","N3","            ","C188","D","    ",False,"TANGRAM-AR_SLSPERSN-LH1","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","LH2","William Wells","N3","            ","C189","D","    ",False,"TANGRAM-AR_SLSPERSN-LH2","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","MIC","Mic Concepts","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-MIC","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","MME","OFRA Sales","A ","            ","MME ","D","    ",True,"TANGRAM-AR_SLSPERSN-MME","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","MPE","Mark Peters","A ","            ","C204","D","    ",False,"TANGRAM-AR_SLSPERSN-MPE","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","MSH","Mark Simmons","N6","            ","C154","D","    ",False,"TANGRAM-AR_SLSPERSN-MSH","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","POC","Linda Pochter/ofra -do not use","A ","            ","LPO ","D","    ",True,"TANGRAM-AR_SLSPERSN-POC","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","PUR","Sue Pursche","N2","            ","PUR ","D","SP  ",False,"TANGRAM-AR_SLSPERSN-PUR","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","RSH","Robin Shaffer","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-RSH","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR0","Maria Joan Design Group","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR0","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR1","Ritz Associates Inc.","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR1","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR2","Stites Gorman","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR2","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR3","The McLain Group Inc","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR3","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR4","Facility Elements Inc","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR4","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR5","Eisaman Contract Associates","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR5","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR6","CFC Group","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR6","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR7","Beyondesign","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR7","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR8","HREP","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR8","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SR9","Redlines","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SR9","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SRA","Bierman Group","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SRA","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SRB","Collective Contract","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SRB","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SRC","Piece Interiors Resources","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SRC","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SRD","Inside Evolutions","A ","            ",NULL,NULL,"    ",False,"TANGRAM-AR_SLSPERSN-SRD","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SWA","Sarah Wange","17","            ","O000","D","    ",False,"TANGRAM-AR_SLSPERSN-SWA","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","SWF","Sarah Wange - Falk","17","            ","O000","D","    ",False,"TANGRAM-AR_SLSPERSN-SWF","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","TMI","Tammy Miller","N6","            ","2002","D","    ",False,"TANGRAM-AR_SLSPERSN-TMI","2025-05-02 00:06:44.974371",NULL,NULL
+"-1","TANGRAM","VSH","Vernon Steitz","N6","            ","C159","D","    ",False,"TANGRAM-AR_SLSPERSN-VSH","2025-05-02 00:06:44.974371",NULL,NULL
