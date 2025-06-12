@@ -1,0 +1,41 @@
+name: Deploy Toolbox Static Web App
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/toolbox/**'
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    env:
+      VITE_API_URL: '/api'
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          cache: 'pnpm'
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build Toolbox app
+        working-directory: apps/toolbox
+        run: pnpm run build
+
+      - name: Deploy to Azure Static Web App
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: 'upload'
+          app_location: 'apps/toolbox'
+          api_location: ''
+          output_location: 'apps/toolbox/dist' 
