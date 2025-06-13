@@ -1,0 +1,16 @@
+{
+  "name": "tangram-toolbox-webapp",
+  "version": "1.0.0",
+  "description": "Tangram Toolbox Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  }
+} 

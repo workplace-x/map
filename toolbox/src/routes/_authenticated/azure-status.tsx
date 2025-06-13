@@ -1,0 +1,1 @@
+import { createFileRoute } from '@tanstack/react-router'; import AzureStatusDashboard from '@/features/azure-status'; export const Route = createFileRoute('/_authenticated/azure-status')({ component: AzureStatusDashboard, });

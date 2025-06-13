@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "tangram-toolbox": {
+      "appLocation": ".",
+      "outputLocation": "dist",
+      "appBuildCommand": "pnpm run build:deploy",
+      "apiLocation": "",
+      "appDevserverUrl": "http://localhost:3002",
+      "resourceGroup": "TangramMarketing",
+      "subscriptionId": "7072c39f-b06e-41b1-a352-80afc9e3944b",
+      "appName": "tangram-toolbox"
+    }
+  }
+} 

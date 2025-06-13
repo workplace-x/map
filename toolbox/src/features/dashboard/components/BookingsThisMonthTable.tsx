@@ -1,0 +1,234 @@
+import React, { useEffect, useState, useRef } from 'react';
+import { AgGridReact } from 'ag-grid-react';
+import { ModuleRegistry, LicenseManager } from 'ag-grid-enterprise';
+import {
+  ClientSideRowModelModule,
+  ServerSideRowModelModule,
+  ColumnsToolPanelModule,
+  FiltersToolPanelModule,
+  SetFilterModule,
+  MultiFilterModule,
+  RangeSelectionModule,
+  RichSelectModule,
+  PaginationModule,
+  RowSelectionModule,
+  TextFilterModule,
+  CellStyleModule,
+  ValidationModule,
+  MenuModule,
+  ClipboardModule,
+  ExcelExportModule,
+  MasterDetailModule,
+  RowGroupingModule,
+  AggregationModule,
+  ColumnMenuModule,
+  StatusBarModule,
+  SideBarModule,
+  TextEditorModule,
+  IntegratedChartsModule
+} from 'ag-grid-enterprise';
+import { RowStyleModule, TooltipModule } from 'ag-grid-community';
+import { AgChartsEnterpriseModule } from 'ag-charts-enterprise';
+import 'ag-grid-enterprise/styles/ag-theme-quartz.css';
+import { ColDef, GridApi } from 'ag-grid-enterprise';
+// @ts-ignore
+import myTheme from '/src/AGGridTheme.js';
+
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://tangram-marketing-functions.azurewebsites.net';
+
+ModuleRegistry.registerModules([
+  ClientSideRowModelModule,
+  ServerSideRowModelModule,
+  ColumnsToolPanelModule,
+  FiltersToolPanelModule,
+  SetFilterModule,
+  MultiFilterModule,
+  RangeSelectionModule,
+  RichSelectModule,
+  PaginationModule,
+  RowSelectionModule,
+  TextFilterModule,
+  CellStyleModule,
+  RowStyleModule,
+  TooltipModule,
+  ValidationModule,
+  MenuModule,
+  ClipboardModule,
+  ExcelExportModule,
+  MasterDetailModule,
+  RowGroupingModule,
+  AggregationModule,
+  ColumnMenuModule,
+  StatusBarModule,
+  SideBarModule,
+  TextEditorModule,
+  IntegratedChartsModule.with(AgChartsEnterpriseModule)
+]);
+
+if (import.meta.env.VITE_AG_GRID_LICENSE_KEY) {
+  LicenseManager.setLicenseKey(import.meta.env.VITE_AG_GRID_LICENSE_KEY);
+}
+
+interface BookingRow {
+  book_date: string;
+  salesperson: string;
+  customer_no: string;
+  customer_name: string;
+  order_title: string;
+  order_no: string;
+  total_sell: number | string;
+  total_cost: number | string;
+  gp_percent: number | string;
+}
+
+export default function BookingsThisMonthTable() {
+  const [rowData, setRowData] = useState<BookingRow[]>([]);
+  const [loading, setLoading] = useState(true);
+  const gridApi = useRef<GridApi | null>(null);
+
+  useEffect(() => {
+    async function fetchBookings() {
+      setLoading(true);
+      try {
+        const res = await fetch(`${API_BASE_URL}/api/bookings-this-month`);
+        const json = await res.json();
+        setRowData(json.bookings || []);
+      } catch (error) {
+        console.error('Failed to fetch bookings:', error);
+        setRowData([]);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchBookings();
+  }, []);
+
+  const columnDefs: ColDef<BookingRow>[] = [
+    { field: 'order_no', headerName: 'ORDER #', flex: 0.9, minWidth: 90, headerClass: 'ag-header-uppercase ag-header-align-left', cellClass: 'ag-cell-align-left ag-cell-ellipsis', tooltipField: 'order_no',
+      cellRenderer: (p: any) => p.value ? (
+        <a
+          href={`/margin-analysis?order=${encodeURIComponent(p.value)}`}
+          className="text-blue-600 hover:text-blue-800 font-semibold text-xs"
+          style={{ textDecoration: 'none', fontWeight: 600, fontSize: '12px', maxWidth: 120, display: 'inline-block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}
+          title={p.value}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {p.value}
+        </a>
+      ) : '',
+    },
+    { field: 'book_date', headerName: 'BOOK DATE', flex: 0.8, minWidth: 90, valueFormatter: (p: any) => p.value && new Date(p.value as string).toLocaleDateString(), headerClass: 'ag-header-uppercase ag-header-align-left', cellClass: 'ag-cell-align-left', tooltipField: 'book_date' },
+    { field: 'salesperson', headerName: 'SALESPERSON', flex: 1, minWidth: 110, headerClass: 'ag-header-uppercase ag-header-align-left', cellClass: 'ag-cell-align-left', tooltipField: 'salesperson' },
+    { field: 'customer_name', headerName: 'CUSTOMER NAME', flex: 1.5, minWidth: 140, headerClass: 'ag-header-uppercase ag-header-align-left', cellClass: 'ag-cell-align-left ag-cell-ellipsis', tooltipField: 'customer_name' },
+    { field: 'order_title', headerName: 'TITLE', flex: 2, minWidth: 160, headerClass: 'ag-header-uppercase ag-header-align-left', cellClass: 'ag-cell-align-left ag-cell-ellipsis', tooltipField: 'order_title' },
+    { field: 'total_sell', headerName: 'SELL', flex: 1, minWidth: 90, headerClass: 'ag-header-uppercase ag-header-align-right', cellClass: 'ag-cell-align-right', valueFormatter: (p: any) => {
+      let val = p.value;
+      if (typeof val === 'string') val = parseFloat(val);
+      return typeof val === 'number' && !isNaN(val)
+        ? val.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
+        : '';
+    }, tooltipValueGetter: (p: any) => {
+      let val = p.value;
+      if (typeof val === 'string') val = parseFloat(val);
+      return typeof val === 'number' && !isNaN(val)
+        ? val.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
+        : '';
+    } },
+    { field: 'total_cost', headerName: 'COST', flex: 1, minWidth: 90, headerClass: 'ag-header-uppercase ag-header-align-right', cellClass: 'ag-cell-align-right', valueFormatter: (p: any) => {
+      let val = p.value;
+      if (typeof val === 'string') val = parseFloat(val);
+      return typeof val === 'number' && !isNaN(val)
+        ? val.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
+        : '';
+    }, tooltipValueGetter: (p: any) => {
+      let val = p.value;
+      if (typeof val === 'string') val = parseFloat(val);
+      return typeof val === 'number' && !isNaN(val)
+        ? val.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
+        : '';
+    } },
+    { field: 'gp_percent', headerName: 'GP%', flex: 0.7, minWidth: 60, headerClass: 'ag-header-uppercase ag-header-align-right', cellClass: 'ag-cell-align-right', valueFormatter: (p: any) => {
+      let val = p.value;
+      if (typeof val === 'string') val = parseFloat(val);
+      return typeof val === 'number' && !isNaN(val)
+        ? (val * 100).toFixed(1) + '%'
+        : '';
+    }, tooltipValueGetter: (p: any) => {
+      let val = p.value;
+      if (typeof val === 'string') val = parseFloat(val);
+      return typeof val === 'number' && !isNaN(val)
+        ? (val * 100).toFixed(1) + '%'
+        : '';
+    } },
+  ];
+
+  const defaultColDef: ColDef = {
+    resizable: true,
+    sortable: false,
+    filter: false,
+    flex: 1,
+    minWidth: 60,
+  };
+
+  // Export CSV handler
+  const handleExport = () => {
+    if (gridApi.current) {
+      gridApi.current.exportDataAsCsv({
+        fileName: 'bookings-this-month.csv',
+        columnKeys: columnDefs.map(col => col.field as string),
+      });
+    }
+  };
+
+  // AG Grid event handler to get gridApi
+  const onGridReady = (params: any) => {
+    gridApi.current = params.api;
+  };
+
+  return (
+    <>
+      <style>{`
+        .shadow-quartz {
+          box-shadow: 0 2px 16px 0 rgba(44, 62, 80, 0.08), 0 1.5px 4px 0 rgba(44, 62, 80, 0.04);
+        }
+        .bg-quartz-light {
+          background: #f8fafc;
+        }
+        .ag-theme-quartz .ag-cell, .ag-theme-quartz .ag-header-cell-label {
+          font-size: 0.75rem !important;
+        }
+
+        .ag-paging-page-size {
+          display: none !important;
+        }
+      `}</style>
+      <div className='ag-theme-quartz shadow-quartz bg-quartz-light' style={{ width: '100%', borderRadius: '1rem', overflow: 'visible' }}>
+        <AgGridReact
+          rowData={rowData}
+          columnDefs={columnDefs}
+          defaultColDef={defaultColDef}
+          gridOptions={undefined}
+          loadingOverlayComponentParams={{ loadingMessage: 'Loading bookings...' }}
+          overlayLoadingTemplate={'<span class="ag-overlay-loading-center">Loading bookings...</span>'}
+          animateRows
+          pagination={true}
+          paginationPageSize={10}
+          suppressCellFocus={true}
+          suppressRowClickSelection={true}
+          suppressMenuHide={true}
+          suppressColumnVirtualisation={false}
+          suppressMovableColumns={true}
+          domLayout="autoHeight"
+          tooltipShowDelay={300}
+          onGridReady={onGridReady}
+          rowSelection="single"
+          getRowClass={params => params.node.isSelected() ? 'ag-row-selected-dashboard' : ''}
+          headerHeight={36}
+          rowHeight={32}
+        />
+        {loading && <div className="text-center text-gray-400 mt-2">Loading bookings…</div>}
+      </div>
+    </>
+  );
+} 

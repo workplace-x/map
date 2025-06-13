@@ -1,0 +1,14 @@
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import AdvancedExecutiveDashboard from '@/features/dashboard/advanced-executive-dashboard'
+import { useAzureAuthStore } from '@/stores/azureAuthStore'
+
+export const Route = createFileRoute('/_authenticated/')({
+  beforeLoad: async () => {
+    // Check Azure AD authentication
+    const { isAuthenticated, user } = useAzureAuthStore.getState()
+    if (!accessToken) {
+      throw redirect({ to: '/sign-in-2' })
+    }
+  },
+  component: AdvancedExecutiveDashboard,
+})

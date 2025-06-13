@@ -1,0 +1,12 @@
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import AdvancedExecutiveDashboard from '@/features/dashboard/advanced-executive-dashboard'
+
+export const Route = createFileRoute('/_authenticated/')({
+  beforeLoad: async () => {
+    const accessToken = localStorage.getItem('sb-access-token')
+    if (!accessToken) {
+      throw redirect({ to: '/sign-in-2' })
+    }
+  },
+  component: AdvancedExecutiveDashboard,
+})

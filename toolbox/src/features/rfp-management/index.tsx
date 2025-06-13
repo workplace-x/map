@@ -1,0 +1,1 @@
+export { RFPManagementPage as default } from './rfp-management-page' 
