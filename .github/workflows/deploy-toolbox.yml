@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'apps/toolbox/**'
   workflow_dispatch:
 
 env:
