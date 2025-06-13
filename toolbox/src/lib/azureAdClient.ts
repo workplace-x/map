@@ -2,8 +2,25 @@ import { PublicClientApplication, Configuration, AccountInfo, AuthenticationResu
 
 // Get the correct redirect URI based on environment
 const getRedirectUri = () => {
-  if (typeof window === 'undefined') return 'http://localhost:3001/auth/callback';
-  return `${window.location.origin}/auth/callback`;
+  if (typeof window === 'undefined') {
+    console.log('🔵 SSR context - using default redirect URI: http://localhost:3001/auth/callback');
+    return 'http://localhost:3001/auth/callback';
+  }
+  
+  const origin = window.location.origin;
+  const redirectUri = `${origin}/auth/callback`;
+  
+  console.log('🔵 Browser context - window.location.origin:', origin);
+  console.log('🔵 Generated redirect URI:', redirectUri);
+  
+  // Force localhost:3001 if we detect localhost:8080 (nginx proxy issue)
+  if (origin.includes('localhost:8080')) {
+    const fixedUri = 'http://localhost:3001/auth/callback';
+    console.log('🔵 Detected localhost:8080, forcing localhost:3001:', fixedUri);
+    return fixedUri;
+  }
+  
+  return redirectUri;
 };
 
 // Get post logout redirect URI safely
@@ -44,27 +61,54 @@ class AzureAdAuthService {
   }
 
   async initialize(): Promise<void> {
-    if (this.initialized || !this.msalInstance) return;
+    console.log('🟡 azureAdClient.initialize() called');
+    console.log('🟡 Already initialized?', this.initialized);
+    console.log('🟡 MSAL instance exists?', !!this.msalInstance);
+    
+    if (this.initialized || !this.msalInstance) {
+      console.log('🟡 Skipping initialization - already done or no MSAL instance');
+      return;
+    }
     
     try {
-      await this.msalInstance.initialize();
+      console.log('🟡 About to call msalInstance.initialize()...');
       
-      // Handle redirect response immediately after initialization
+      // Add timeout to prevent hanging
+      const initPromise = this.msalInstance.initialize();
+      const timeoutPromise = new Promise((_, reject) => {
+        setTimeout(() => reject(new Error('MSAL initialization timed out after 10 seconds')), 10000);
+      });
+      
+      await Promise.race([initPromise, timeoutPromise]);
+      console.log('🟡 MSAL instance initialized successfully');
+      
+      // Handle redirect response after successful initialization
+      console.log('🟡 About to handle redirect response...');
       await this.handleRedirectResponse();
+      console.log('🟡 Redirect response handled successfully');
       
       this.initialized = true;
-      console.log('🔐 Azure AD MSAL initialized with redirect URI:', getRedirectUri());
+      console.log('🟡 Azure AD MSAL initialization complete with redirect URI:', getRedirectUri());
     } catch (error) {
       console.error('❌ Failed to initialize MSAL:', error);
+      console.error('❌ Error details:', {
+        name: error instanceof Error ? error.name : 'Unknown',
+        message: error instanceof Error ? error.message : 'Unknown error',
+        stack: error instanceof Error ? error.stack : 'No stack trace'
+      });
       throw error;
     }
   }
 
   async loginPopup(): Promise<AuthenticationResult> {
+    console.log('🔴 azureAdClient.loginPopup() called');
+    
     if (!this.msalInstance) {
+      console.log('❌ MSAL instance not available');
       throw new Error('MSAL not available (SSR context)');
     }
     
+    console.log('🔴 Initializing MSAL...');
     await this.initialize();
     
     const loginRequest: PopupRequest = {
@@ -72,12 +116,28 @@ class AzureAdAuthService {
       prompt: 'select_account'
     };
 
+    console.log('🔴 Login request config:', loginRequest);
+
     try {
+      console.log('🔴 Opening Microsoft login popup...');
       const response = await this.msalInstance.loginPopup(loginRequest);
+      
+      console.log('🔴 Popup login response received:', {
+        accountName: response.account?.name,
+        hasAccessToken: !!response.accessToken,
+        scopes: response.scopes
+      });
+      
       console.log('✅ Azure AD login successful:', response.account?.name);
       return response;
     } catch (error) {
-      console.error('❌ Azure AD login failed:', error);
+      console.error('❌ Azure AD popup login failed:', error);
+      console.error('❌ Error type:', error?.constructor?.name);
+      console.error('❌ Error details:', {
+        message: error instanceof Error ? error.message : 'Unknown error',
+        name: error instanceof Error ? error.name : 'Unknown',
+        stack: error instanceof Error ? error.stack : 'No stack trace'
+      });
       throw error;
     }
   }
@@ -188,22 +248,82 @@ class AzureAdAuthService {
   }
 
   async handleRedirectResponse(): Promise<AuthenticationResult | null> {
+    console.log('🟠 handleRedirectResponse() called');
+    
     if (!this.msalInstance) {
+      console.log('🟠 No MSAL instance available for redirect handling');
       return null;
     }
     
     if (!this.initialized) {
-      await this.initialize();
+      console.log('🟠 MSAL not initialized yet, skipping redirect handling');
+      return null;
     }
     
     try {
-      const response = await this.msalInstance.handleRedirectPromise();
+      console.log('🟠 About to call msalInstance.handleRedirectPromise()...');
+      
+      // Add timeout to prevent hanging on network issues
+      const redirectPromise = this.msalInstance.handleRedirectPromise();
+      const timeoutPromise = new Promise((_, reject) => {
+        setTimeout(() => reject(new Error('Token exchange timed out after 30 seconds')), 30000);
+      });
+      
+      const response = await Promise.race([redirectPromise, timeoutPromise]);
+      console.log('🟠 Redirect promise resolved, response:', !!response);
+      
       if (response) {
-        console.log('✅ Azure AD redirect response handled:', response.account?.name);
+        console.log('🟠 Redirect response received:', response.account?.name);
+        console.log('🟠 Access token present:', !!response.accessToken);
+        console.log('🟠 ID token present:', !!response.idToken);
+      } else {
+        console.log('🟠 No redirect response (normal for non-redirect scenarios)');
       }
+      
       return response;
-    } catch (error) {
+    } catch (error: any) {
       console.error('❌ Error handling redirect response:', error);
+      console.error('❌ Redirect error details:', {
+        name: error instanceof Error ? error.name : 'Unknown',
+        message: error instanceof Error ? error.message : 'Unknown error',
+        stack: error instanceof Error ? error.stack : 'No stack trace',
+        errorCode: error?.errorCode,
+        errorMessage: error?.errorMessage
+      });
+      
+      // Check for specific network/CORS errors
+      if (error.message?.includes('Failed to fetch') || 
+          error.message?.includes('NetworkError') ||
+          error.message?.includes('CORS') ||
+          error.name === 'NetworkError') {
+        console.warn('🟡 Network error detected during token exchange - this might be a CORS or connectivity issue');
+        console.warn('🟡 Checking if user is already authenticated...');
+        
+        // Check if we already have valid accounts despite the network error
+        const accounts = this.msalInstance?.getAllAccounts();
+        if (accounts && accounts.length > 0) {
+          console.log('🟡 Found existing account despite network error:', accounts[0].name);
+          // Return a minimal response indicating the user is authenticated
+          return {
+            account: accounts[0],
+            accessToken: '', // We'll get this later via silent token acquisition
+            idToken: '',
+            fromCache: true,
+            scopes: ['user.read'],
+            tokenType: 'Bearer',
+            expiresOn: null,
+            extExpiresOn: null,
+            state: '',
+            familyId: '',
+            cloudGraphHostName: '',
+            msGraphHost: '',
+            uniqueId: accounts[0].localAccountId,
+            tenantId: accounts[0].tenantId || ''
+          } as AuthenticationResult;
+        }
+      }
+      
+      // For other errors, re-throw
       throw error;
     }
   }

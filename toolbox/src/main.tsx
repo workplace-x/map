@@ -86,9 +86,10 @@ declare module '@tanstack/react-router' {
 const rootElement = document.getElementById('root')!
 if (!rootElement.innerHTML) {
   // Initialize Azure auth asynchronously to not block app startup
-  setTimeout(() => {
-    useAzureAuthStore.getState().initialize();
-  }, 0);
+  // TEMPORARILY DISABLED to prevent API server crashes
+  // setTimeout(() => {
+  //   useAzureAuthStore.getState().initialize();
+  // }, 0);
   
   const root = ReactDOM.createRoot(rootElement)
   root.render(

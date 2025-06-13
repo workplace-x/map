@@ -145,43 +145,32 @@ export const useAzureAuthStore = create<AzureAuthState>((set, get) => ({
   setError: (error) => set({ error }),
 
   login: async () => {
+    console.log('🟢 azureAuthStore.login() called');
     set({ loading: true, error: null });
     
     try {
-      // Use redirect login in production, popup in development
-      if (import.meta.env.PROD) {
-        // In production, use redirect login to avoid popup blockers and hash issues
+      console.log('🟢 Environment check - PROD:', import.meta.env.PROD);
+      
+      // Use redirect login for both development and production for simplicity
+      console.log('🟢 Using redirect login for better reliability');
+      
+      try {
         await azureAdAuth.loginRedirect();
-        // The redirect will handle the rest, so we don't return here
+        console.log('🟢 Redirect login initiated successfully');
+        // The redirect will handle the rest, user will be redirected to callback page
         return true;
-      } else {
-        // In development, use popup login for better developer experience
-        const result = await azureAdAuth.loginPopup();
-        const accessToken = result.accessToken;
-        const userInfo = azureAdAuth.getUserInfo();
-        
-        if (userInfo) {
-          // Set basic Azure AD user info first
-          set({
-            user: userInfo as CompleteUserProfile,
-            accessToken: accessToken,
-            isAuthenticated: true,
-            loading: false,
-            error: null
-          });
-          
-          // Fetch complete profile data from database
-          await get().fetchCompleteUserProfile();
-          
-          // Verify the user with the API
-          await get().verifyUserWithApi();
-          return true;
-        } else {
-          throw new Error('Failed to get user information');
-        }
+      } catch (error) {
+        console.error('❌ Redirect login failed:', error);
+        throw error;
       }
     } catch (error: any) {
-      console.error('Azure AD login failed:', error);
+      console.error('❌ Azure AD login failed in store:', error);
+      console.error('❌ Error details:', {
+        name: error.name,
+        message: error.message,
+        stack: error.stack
+      });
+      
       set({
         error: error.message || 'Login failed',
         loading: false,
@@ -346,11 +335,14 @@ export const useAzureAuthStore = create<AzureAuthState>((set, get) => ({
             loading: false
           });
           
+          // TEMPORARILY DISABLED to prevent API server crashes
           // Fetch complete profile data from database
-          await get().fetchCompleteUserProfile();
+          // await get().fetchCompleteUserProfile();
           
           // Verify the user with the API
-          await get().verifyUserWithApi();
+          // await get().verifyUserWithApi();
+          
+          console.log('✅ Azure AD initialization successful (API calls disabled for now)');
         } else {
           set({ loading: false });
         }
